@@ -115,7 +115,7 @@ http://localhost/entrelinhas
 | Ian Gonçalves | Desenvolvedor Back-end (PHP) |
 | Rita De Cássia | Designer Chefe de Banco de Dados |
 | Ana Laura Flor | Segunda Chefe de Banco de Dados |
-| Mariana Clerier | Responsável pela Identidade Visual |
+| Mariana Crelier | Responsável pela Identidade Visual |
 | Djenyffer Alves | Responsável pela Identidade Visual |
 
 ---
