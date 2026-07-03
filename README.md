@@ -90,7 +90,7 @@ entrelinhas/
 1. Clone este repositório:
 
 bash
-git clone https://github.com/La-vielina/entrelinhas-livraria.git
+git clone https://github.com/IongaLKS/entrelinhas-livraria.git
 
 
 2. Coloque a pasta do projeto em htdocs (XAMPP).
