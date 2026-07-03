@@ -7,7 +7,7 @@ Sistema desenvolvido em PHP seguindo o padrão MVC.
 - Cadastro de produtos
 - Edição de produtos
 - Exclusão de produtos
-- Busca por nome
+- Busca por genero
 - Login de usuários
 
 ## Tecnologias
