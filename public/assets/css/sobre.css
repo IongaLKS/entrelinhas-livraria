@@ -1,0 +1,138 @@
+/* ── RESET ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "inika";
+  src: url("inika.regular.ttf") format("truetype");
+
+  background-color: #E8D5C0;
+  color: #62241b;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #D6B49A;
+  display: flex;
+  align-items: center; 
+  padding: 15px 40px;
+  box-shadow: 0 2px 8px rgba(60,20,0,.15);
+  justify-content: space-between;
+}
+
+.logo {
+  width: 180px;
+  height: 70px;
+}
+
+.nav-direita {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 18px;
+}
+
+.dashboard {
+  height: 25px;
+  width: 25px;
+}
+
+.perfil-vendedor {
+  height: 25px;
+  width: 25px;
+}
+
+.pagina {
+  max-width: 1150px;
+  margin: 40px auto;
+  background: #D6B49A;
+  border-radius: 30px;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #3B1A0D;
+  margin-bottom: 10px;
+}
+
+.sub-titulo {
+  font-size: 18px;
+  color: #7A5040;
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 44px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 170px);
+  gap: 45px 170px;
+  justify-content: center;
+
+  margin-top: 45px 65px;
+}
+
+.desenvolvedores {
+ background: #D6B49A;
+
+ border: 2px solid #6D4332;
+ border-radius: 20px;
+ padding: 18px 14px;
+
+ width: 200px;
+ min-height: 290px;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.foto {
+  width: 130px;
+  height: 150px;
+
+  border-radius: 15px;
+  overflow: hidden;
+  border: 3px solid #6D4332;
+
+  margin-bottom: 15px;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nome {
+  font-size: 14px;
+  font-weight: bold;
+  color: #3B1A0D;
+
+  text-align: center;
+  text-transform: uppercase;
+  
+  border-bottom: 1px solid #3B1A0D;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  width: 80%;
+}
+
+.funcao {
+  font-size: 13px;
+  color: #593527;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
