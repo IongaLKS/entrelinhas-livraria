@@ -1,113 +1,59 @@
-# Sistema de Estoque
+Entrelinhas Livraria
+Sistema web desenvolvido em PHP, utilizando o padrão de arquitetura MVC (Model-View-Controller), para gerenciamento interno de uma livraria vitual. 
 
-Sistema desenvolvido em PHP seguindo o padrão MVC.
-
-## Funcionalidades
-
-- Cadastro de produtos
-- Edição de produtos
-- Exclusão de produtos
-- Busca por genero
-- Login de usuários
-
-## Tecnologias
-
-- PHP
-- MVC
-- PDO
-- MySQL
-- HTML
-- CSS
----
-
+Funcionalidades 
+• Cadastro de livros 
+• Edição de livros
+• Exclusão de livros 
+• Gerenciamento de livros por categoria/gênero 
+• Login de usuários 
+• Controle de estoque de livros 
+• Acesso por perfil 
+Tecnologias 
+• PHP 
+• MVC 
+• PDO 
+• MySQL 
+• HTML 
+• CSS 
 ## 📂 Estrutura do projeto
-
-
-entrelinhas/
-
-├────── CONFIG
-
+entrelinhas/ ├────── CONFIG 
 ├── DB.PHP
-
-├────── CONTROLLERS
-
-├── AuthController.PHP
-
-├── CategoriaController.PHP
-
-├── DashboardController.PHP
-
-├── LivrosController
-
-├── ProdutoController
-
-├── SobreController
-
-├── UsuarioController
-
-
-
-├────── MODELS
-
-├── Categoria.php
-
-├── Produto.php
-
-├── Usuario.php
-
-├────── PUBLIC
-
-├── assets
-
-├── uploads
-
-├────── VIEW
-
-├── cadastro.php
-
-├── categorias.php
-
+├────── CONTROLLERS 
+├── AuthController.PHP 
+├── CategoriaController.PHP 
+├── DashboardController.PHP 
+├── LivrosController 
+├── ProdutoController 
+├── SobreController 
+├── UsuarioController 
+├────── MODELS 
+├── Categoria.php 
+├── Produto.php 
+├── Usuario.php 
+├────── PUBLIC 
+├── assets 
+├── uploads 
+├────── VIEW 
+├── cadastro.php 
+├── categorias.php 
 ├── dashboard.php
-
-
 ├── livros.php
-
-├── livrosFiltro.php
-
-├── login.php
-
+├── livrosFiltro.php 
+├── login.php 
 ├── produtos.php
-
 ├── sobre.php
-
 ├─index.php
-
-├─entrelinhas.sql
-
----
+├─entrelinhas.sql 
 
 ## 🚀 Como executar
-
-1. Clone este repositório:
-
-bash
-git clone https://github.com/IongaLKS/entrelinhas-livraria.git
-
-
+1. Clone este repositório: bash git clone https://github.com/IongaLKS/entrelinhas-livraria.git
 2. Coloque a pasta do projeto em htdocs (XAMPP).
-
-3. Inicie o Apache e o MySQL.
-
+3.  Inicie o Apache e o MySQL.
 4. Configure o banco de dados.
-
-5. Acesse no navegador:
-
-
-http://localhost/entrelinhas
-
-
+5. Acesse no navegador: http://localhost/entrelinhas
+   
 ---
-
 ## 👥 Equipe
 
 | Integrante | Função |
@@ -119,8 +65,8 @@ http://localhost/entrelinhas
 | Mariana Crelier | Responsável pela Identidade Visual |
 | Djenyffer Alves | Responsável pela Identidade Visual |
 
----
 
+---
 ## 📄 Licença
 
 Projeto desenvolvido para fins acadêmicos.
