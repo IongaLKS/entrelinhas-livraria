@@ -3,48 +3,90 @@ Sistema web desenvolvido em PHP, utilizando o padrão de arquitetura MVC (Model-
 
 Funcionalidades 
 • Cadastro de livros 
+
 • Edição de livros
+
 • Exclusão de livros 
+
 • Gerenciamento de livros por categoria/gênero 
+
 • Login de usuários 
+
 • Controle de estoque de livros 
+
 • Acesso por perfil 
+
 Tecnologias 
+
 • PHP 
+
 • MVC 
+
 • PDO 
+
 • MySQL 
+
 • HTML 
+
 • CSS 
+
 ## 📂 Estrutura do projeto
 entrelinhas/ ├────── CONFIG 
+
 ├── DB.PHP
+
 ├────── CONTROLLERS 
+
 ├── AuthController.PHP 
+
 ├── CategoriaController.PHP 
+
 ├── DashboardController.PHP 
+
 ├── LivrosController 
+
 ├── ProdutoController 
+
 ├── SobreController 
+
 ├── UsuarioController 
+
 ├────── MODELS 
+
 ├── Categoria.php 
+
 ├── Produto.php 
+
 ├── Usuario.php 
+
 ├────── PUBLIC 
+
 ├── assets 
+
 ├── uploads 
+
 ├────── VIEW 
+
 ├── cadastro.php 
+
 ├── categorias.php 
+
 ├── dashboard.php
+
 ├── livros.php
+
 ├── livrosFiltro.php 
+
 ├── login.php 
+
 ├── produtos.php
+
 ├── sobre.php
+
 ├─index.php
+
 ├─entrelinhas.sql 
+
 
 ## 🚀 Como executar
 1. Clone este repositório: bash git clone https://github.com/IongaLKS/entrelinhas-livraria.git
