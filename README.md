@@ -46,6 +46,7 @@ entrelinhas/
 ├── UsuarioController
 
 
+
 ├────── MODELS
 
 ├── Categoria.php
